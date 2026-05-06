@@ -1,0 +1,20 @@
+# ======= BACKEND =======
+backend/.env
+backend/.env.*
+backend/node_modules/
+
+# ======= FRONTEND =======
+frontend/node_modules/
+frontend/.env
+frontend/.env.*
+frontend/.next/        # if Next.js
+frontend/dist/         # if Vite/React build
+frontend/build/
+
+# ======= GENERAL =======
+.DS_Store
+*.log
+npm-debug.log*
+
+frontend/.env.local
+frontend/.env*.local
