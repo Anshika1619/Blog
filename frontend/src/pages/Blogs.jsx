@@ -91,7 +91,7 @@ const Blogs = () => {
                     ) : (
                       <div className="w-full h-full flex items-center justify-center">
                         <span className="font-display text-3xl font-semibold tracking-tight text-border-strong transition-transform duration-500 group-hover:scale-105">
-                          Antigravity
+                          Blog
                         </span>
                       </div>
                     )}

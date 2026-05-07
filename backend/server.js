@@ -36,7 +36,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Routes
 app.get('/api', (req, res) => {
-  res.json({ message: 'Welcome to Antigravity API' });
+  res.json({ message: 'Welcome to Notivo API' });
 });
 app.use('/api/auth', authRoutes);
 app.use('/api/blogs', blogRoutes);

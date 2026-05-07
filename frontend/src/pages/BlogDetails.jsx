@@ -127,7 +127,7 @@ const BlogDetails = () => {
               )}
               <div>
                 <p className="text-sm font-semibold text-text-primary leading-tight">{blog.author?.name}</p>
-                <p className="text-xs text-text-muted mt-0.5">{blog.author?.bio || 'Author at Antigravity'}</p>
+                <p className="text-xs text-text-muted mt-0.5">{blog.author?.bio || 'Author at IEEE'}</p>
               </div>
             </div>
 
